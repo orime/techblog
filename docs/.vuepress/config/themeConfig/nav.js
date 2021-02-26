@@ -1,4 +1,4 @@
-// nav
+// * nav 这里是右上角栏的配置
 module.exports = [
   { text: '首页', link: '/' },
   {
@@ -73,6 +73,7 @@ module.exports = [
       { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
       { text: '资源', link: '/pages/eee83a9211a70f9d/' },
       { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+      { text: '每个看十遍', link: '/pages/168520/' },
     ],
   },
   {
@@ -83,5 +84,9 @@ module.exports = [
       { text: '标签', link: '/tags/' },
       { text: '归档', link: '/archives/' },
     ],
+  },
+  {
+    text: '构印术',
+    link: '/remember/',
   },
 ]

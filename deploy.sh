@@ -13,10 +13,10 @@ cd docs/.vuepress/dist
 # echo 'b.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Orime112/vuepress-knowledge-blog.git
+  githubUrl=git@github.com:orime/vuepress-knowledge-blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://Orime112:${GITHUB_TOKEN}@github.com/Orime112/vuepress-knowledge-blog.git
+  githubUrl=https://orime:${GITHUB_TOKEN}@github.com/orime/vuepress-knowledge-blog.git
   git config --global user.name "YeYang"
   git config --global user.email "1126439586@qq.com"
 fi

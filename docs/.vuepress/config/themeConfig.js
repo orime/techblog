@@ -48,7 +48,7 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'orime', // 必需
-    link: 'https://github.com/Orime112', // 可选的
+    link: 'https://github.com/orime', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
@@ -68,7 +68,7 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/Orime112',
+        link: 'https://github.com/orime',
       },
       {
         iconClass: 'icon-erji',
